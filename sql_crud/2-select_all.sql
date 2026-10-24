@@ -1,0 +1,2 @@
+SELECT ALL * FROM books
+ORDER BY id ASC;
