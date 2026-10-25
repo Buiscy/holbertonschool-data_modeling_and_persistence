@@ -1,3 +1,3 @@
 UPDATE books
-set stock = stock + 5
-WHERE published_year < 2000;
+set price = price * 0.9
+WHERE genre = 'Tech' AND stock > 5;
